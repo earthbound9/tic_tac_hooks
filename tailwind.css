@@ -1,0 +1,17 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.custom-text {
+  font-size: 5rem;
+  line-height: 0px;
+  padding-bottom: 1.3rem;
+  outline: none;
+  overflow: hidden;
+}
+
+.custom-text:focus {
+  outline: none;
+}
